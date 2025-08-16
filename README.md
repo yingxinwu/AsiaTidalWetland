@@ -18,13 +18,14 @@ The resulting product covers **tidal wetlands across Asia’s coastline (~3,800,
 ---
 
 ## ✨ Key Features  
-- 🌍 **Large-scale tidal wetland mapping** across Asia (10m resolution)  
-- 🛰️ **Point-sample-driven deep learning framework**, converting sparse points into pixel-wise pseudo-labels  
-- ⚖️ **Debiased sampling** to correct covariate-driven sample selection bias  
-- 🔍 **Noise-resistant learning** using confusion probabilities to suppress label noise  
-- 📊 **Benchmark experiments** demonstrate consistent improvement over state-of-the-art methods  
+- 🌍 A **point-sample-driven large-scale tidal wetland mapping framework** is proposed 
+- 🛰️ A **covariate-consistent debiased sampling** strategy is designed for biased data 
+- ⚖️ The framework can generate debiased **pixel-wise samples** with limited points  
+- 🔍 A class-conditional **noise learning module** is proposed for noisy generated labels  
+- 📊 The framework was successfully applied to **tidal wetland mapping in Asia** (10m resolution)  
 
 ---
+
 
 ## 📂 Data Access  
 The **classified tidal wetland maps** are publicly available:  
